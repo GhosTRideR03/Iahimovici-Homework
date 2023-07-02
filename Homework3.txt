@@ -3,7 +3,7 @@
    2 echo "Homework 3" >> file.txt 
    3 df -h /
    4 df -h / >> file.txt 
-   5 history | tail -4 >> file.txt 
+   5 history | tail -5 >> file.txt 
    6 cat file.txt 
    7 зы
    8 ps
