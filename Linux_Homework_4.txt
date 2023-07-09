@@ -1,0 +1,69 @@
+Файл скрипта:
+#!/bin/bash
+
+echo -n "your name is: "
+echo $USER
+echo "your working directory is:"
+pwd
+echo "Number of users:"
+ps -A | grep "ssh"
+echo "done"
+------------------------------------------------------------------------------------
+История команд:
+  993  cd /opt
+  994  ls
+  995  cd 300523_evening/
+  996  ls
+  997  cd iahimovici/
+  998  ls
+  999  testscript.sh
+ 1000  touch testscript.sh
+ 1001  cat script.sh
+ 1002  ls
+ 1003  nano testscript.sh
+ 1004  printenv
+ 1005  nano testscript.sh
+ 1006  clear
+ 1007  printenv
+ 1008  nano testscript.sh
+ 1009  ls
+ 1010  chmod u+x
+ 1011  chmod u+x testscript.sh
+ 1012  ls
+ 1013  ls -l
+ 1014  ./ testscript.sh
+ 1015  ./testscript.sh
+ 1016  nano testscript.sh
+ 1017  ./testscript.sh
+ 1018  nano testscript.sh
+ 1019  ./testscript.sh
+ 1020  who | grep ec2
+ 1021  who | grep "who"
+ 1022  who | grep "ec2"
+ 1023  who | grep -e "ec2-user"
+ 1024  echo $USER
+ 1025  nano testscript.sh
+ 1026  ./testscript.sh
+ 1027  nano testscript.sh
+ 1028  ./testscript.sh
+ 1029  nano testscript.sh
+ 1030  ps | grep "ssh"
+ 1031  ps
+ 1032  ps -A
+ 1033  ps -A | grep "ssh"
+ 1034  nano testscript.sh
+ 1035  ./testscript.sh
+ 1036  nano testscript.sh
+ 1037  ./testscript.sh
+ 1038  nano testscript.sh
+ 1039  ./testscript.sh
+ 1040  chmod ugo-x g-r testscript.sh
+ 1041  chmod ugo-x testscript.sh
+ 1042  chmod g-r testscript.sh
+ 1043  ls
+ 1044  ls -a
+ 1045  ls -l
+ 1046  history
+ 1047  mv testscript.sh /opt/300523_evening/iahimovici/.testscript.sh
+
+
