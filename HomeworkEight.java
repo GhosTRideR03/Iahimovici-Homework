@@ -13,11 +13,12 @@ public class HomeworkEight {
         //System.out.println(characterCounter("Hello Ilias", 'l'));
         romanToDecimal("LXXXVIII");
     }
+
     public static void romanToDecimal(java.lang.String romanNumber) {
         int decimal = 0;
         int lastNumber = 0;
         String romanNumeral = romanNumber.toUpperCase();
-        for (int x = romanNumeral.length() - 1; x >= 0 ; x--) {
+        for (int x = romanNumeral.length() - 1; x >= 0; x--) {
             char convertToDecimal = romanNumeral.charAt(x);
 
             switch (convertToDecimal) {
@@ -59,6 +60,7 @@ public class HomeworkEight {
         }
         System.out.println(decimal);
     }
+
     public static int processDecimal(int decimal, int lastNumber, int lastDecimal) {
         if (lastNumber > decimal) {
             return lastDecimal - decimal;
@@ -66,7 +68,6 @@ public class HomeworkEight {
             return lastDecimal + decimal;
         }
     }
-
 
 
     public static int characterCounter(String str, char c) {
